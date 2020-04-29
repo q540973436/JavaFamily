@@ -1,9 +1,4 @@
 
-
-作为一个在互联网公司面一次拿一次Offer的面霸，打败了无数竞争对手，每次都只能看到无数落寞的身影失望的离开，略感愧疚（请允许我使用一下夸张的修辞手法)。
-
-在一个寂寞难耐的夜晚，我痛定思痛，决定不再沉默，所以我开始写面试相关的文章了，希望能帮助各位读者以后面试势如破竹，让一同面试的同僚瞠目结舌，疯狂收割大厂**Offer**！
-
 我会从下图中的知识点去写这个系列，很多细节的点，可能想得不是很完善，大家可以去[【公众号】](#公众号)获取或者加我[【微信】](#微信)提意见(别忘记**Star**哟)。
 
 原创文章每周最少两篇，公众号首发文章，[【B站】](https://space.bilibili.com/130763764)首发视频，比博客早一到两篇。
@@ -19,20 +14,15 @@
 <p align="center">
   <a href="#微信"><img src="https://img.shields.io/badge/weChat-微信群-blue.svg" alt="微信群"></a>
   <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-三太子敖丙-lightgrey.svg" alt="公众号"></a>
-  <a href="https://juejin.im/user/59b416065188257e671b670a"><img src="https://img.shields.io/badge/juejin-掘金-blue.svg" alt="公众号"></a>
-  <a href="https://me.csdn.net/qq_35190492"><img src="https://img.shields.io/badge/csdn-CSDN-red.svg" alt="投稿"></a>
-  <a href="https://www.cnblogs.com/aobing/"><img src="https://img.shields.io/badge/cnblogs-博客园-important.svg" alt="投稿"></a>
-  <a href="https://my.oschina.net/javaFamily"><img src="https://img.shields.io/badge/oschina-开源中国-green" alt="投稿"></a>
   <a href="https://space.bilibili.com/130763764"><img src="https://img.shields.io/badge/bilibili-哔哩哔哩-critical" alt="投稿"></a>
-  <a href="https://www.zhihu.com/people/aobingJava/activities"><img src="https://img.shields.io/badge/zhihu-知乎-informational" alt="投稿"></a>
   <a href="https://www.toutiao.com/c/user/3270187212/#mid=1557137040287746"><img src="https://img.shields.io/badge/toutiao-头条-9cf" alt="投稿"></a>
+  <a href="https://juejin.im/user/59b416065188257e671b670a"><img src="https://img.shields.io/badge/juejin-掘金-blue.svg" alt="公众号"></a>
+  <a href="https://www.zhihu.com/people/aobingJava/activities"><img src="https://img.shields.io/badge/zhihu-知乎-informational" alt="投稿"></a>
+  <a href="https://me.csdn.net/qq_35190492"><img src="https://img.shields.io/badge/csdn-CSDN-red.svg" alt="投稿"></a>
+  <a href="https://my.oschina.net/javaFamily"><img src="https://img.shields.io/badge/oschina-开源中国-green" alt="投稿"></a>
+  <a href="https://www.cnblogs.com/aobing/"><img src="https://img.shields.io/badge/cnblogs-博客园-important.svg" alt="投稿"></a>
 </p>
 
-<p align="center">
-  <a  href="https://shimo.im/docs/wGRxyKRGrCvVp3kt/read" >
-<img src="https://tva1.sinaimg.cn/large/0082zybply1gcb2m6hbjlj30oi01w40b.jpg"width="" style="margin: 0 auto;"/>
-  </a >
-</p>
 
 ![](https://tva1.sinaimg.cn/large/0082zybply1gcb2u3keh9j30p02j4h2r.jpg)
 # 目录(善用Ctrl+F)
@@ -48,17 +38,20 @@
   - 7种常见的设计模式和使用场景
   - Java必会基础与新版本特性
   - [HashMap](https://github.com/AobingJava/JavaFamily/blob/master/docs/basics/HashMap.md)
+  - [面试官：HashMap 为什么线程不安全？](https://mp.weixin.qq.com/s/VtIpj-uuxFj5Bf6TmTJMTw)
   - [万万没想到，HashMap默认容量的选择，竟然背后有这么多思考！？](https://mp.weixin.qq.com/s/ktre8-C-cP_2HZxVW5fomQ)
   - [ConcurrentHashMap & Hashtable（文末送书）](https://mp.weixin.qq.com/s/AixdbEiXf3KfE724kg2YIw)
   - [ArrayList](https://mp.weixin.qq.com/s/WoGclm7SsbURGigI3Mwr3w)
   - [跟着动画学习TCP三次握手和四次挥手](https://mp.weixin.qq.com/s/NL7Jzh0lYoA395yzaGxBHw)
   - [面试官问我同步容器（如Vector）的所有操作一定是线程安全的吗？我懵了！](https://mp.weixin.qq.com/s/0cMrE87iUxLBw_qTBMYMgA)
+  - [全网最透彻HTTPS（面试常问）](https://mp.weixin.qq.com/s/21JaXwdfSjItj5SgOwhapg)
   
 - 深入浅出JVM
 
   - JVM内存模型
   - [【JVM故事】了解JVM的结构，好在面试时吹牛](https://mp.weixin.qq.com/s/fit90VdZUa2pG9lbET0i7w)
   - [看完这篇垃圾回收，和面试官扯皮没问题了](https://mp.weixin.qq.com/s/_AKQs-xXDHlk84HbwKUzOw)
+  - [Java堆内存是线程共享的！面试官：你确定吗？](https://mp.weixin.qq.com/s/Wws24Fhg1nH4dHvtcFYi2g)
   - 性能调优、线上问题排查
   - 类加载机制详解
   - 垃圾回收机制
@@ -74,6 +67,7 @@
   - [Java 并发进阶常见面试题总结](https://mp.weixin.qq.com/s/cdHfTTvMpH60SwG2bjTMBw)
   - [如果你这样回答“什么是线程安全”，面试官都会对你刮目相看（建议珍藏）](https://mp.weixin.qq.com/s/WDeewsvWUEBIuabvVVhweA)
   - [乐观锁、悲观锁](https://mp.weixin.qq.com/s/WtAdXvaRuBZ-SXayIKu1mA)
+  
 - 常用工具集
 
   - JVM问题排查工具-JMC
@@ -81,7 +75,9 @@
   - 线上调试神器-btrace
   - Git原理与工作流
   - Linux常用分析工具
- 
+  - [怎么排查堆内存溢出啊？](https://mp.weixin.qq.com/s/7XGD-Z3wrThv5HyoK3B8AQ)
+  - [CPU100%，排查](https://mp.weixin.qq.com/s/roEMz-5tzBZvGxbjq8NhOQ)
+  
 - 数据结构与算法
 
   - 从二叉搜索树到B+树
@@ -99,6 +95,7 @@
   - [20000 字的 Spring Cloud 总结](https://mp.weixin.qq.com/s/pGSx8eKFH3YnUos3SM2ITw)
   - [什么是Zookeeper](https://mp.weixin.qq.com/s/gphDLJMO3QcRoN3zkco4EA)
   - [什么是单点登录(SSO)](https://mp.weixin.qq.com/s/drPVkRbCsDIlX6Ls2pDmqA)
+  - [分布式锁之Zookeeper](https://mp.weixin.qq.com/s/ZqQHWLfVD1Rz1agmH3LWrg)
   
 - [高并发架构基石-缓存](https://github.com/AobingJava/JavaFamily/tree/master/docs/redis)
 
@@ -109,6 +106,7 @@
   - [Redis常见面试题](https://github.com/AobingJava/JavaFamily/blob/master/docs/redis/Redis%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98.md)
   - [布隆过滤器(BloomFilter)](https://github.com/AobingJava/JavaFamily/blob/master/docs/redis/%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8(BloomFilter).md)
   - [秒杀系统设计](https://github.com/AobingJava/JavaFamily/blob/master/docs/redis/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1.md)
+  - [全栈秒杀系统设计](https://mp.weixin.qq.com/s/RRHN8t017ofOvb4nvlCStg)
   - [课代表总结](https://github.com/AobingJava/JavaFamily/blob/master/docs/redis/%E8%AF%BE%E4%BB%A3%E8%A1%A8%E6%80%BB%E7%BB%93.md)
   - [短小精悍之 Redis 命令行工具有趣的罕见用法](https://mp.weixin.qq.com/s/eSx4aL7iaMZlW0cPZswghA)
   - [布隆过滤器实战【防止缓存击穿】](https://mp.weixin.qq.com/s/BdwZViiAqnFhCde4ZsxwPg)
@@ -117,6 +115,11 @@
   - [Redis—分布式锁深入探究](https://mp.weixin.qq.com/s/49hgH3COla3wU0rgyiUVgg)
   - [Redis—跳跃表](https://mp.weixin.qq.com/s/NOsXdrMrWwq4NTm180a6vw)
   - [Redis—5种基本数据结构](https://mp.weixin.qq.com/s/MT1tB2_7f5RuOxKhuEm1vQ)
+  - [Redis—持久化](https://mp.weixin.qq.com/s/O_qDco6-Dasu3RomWIK_Ig)
+  - [Reids—神奇的HyperLoglog解决统计问题](https://mp.weixin.qq.com/s/9dtGe3d_mbbxW5FpVPDNow)
+  - [Redis分布式锁](https://mp.weixin.qq.com/s/Z_xriP-jc2Bnmdcm0l5xzg) 
+  - [妈妈再也不担心我面试被Redis问得脸都绿了](https://mp.weixin.qq.com/s/vXBFscXqDcXS_VaIERplMQ)
+  
 - [消息队列](https://github.com/AobingJava/JavaFamily/tree/master/docs/mq)
 
   - [消息队列基础知识](https://github.com/AobingJava/JavaFamily/blob/master/docs/mq/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%E5%9F%BA%E7%A1%80.md)
@@ -137,6 +140,7 @@
   - [数据库基础知识](https://mp.weixin.qq.com/s/NDL1Q6nqdPq5oMBWSpq4ug)
   - [原来MySQL面试还会问这些(undo log)](https://mp.weixin.qq.com/s/Lx4TNPLQzYaknR7D3gmOmQ)
   - [数据库连接池到底应该设多大？这篇文章可能会颠覆你的认知](https://mp.weixin.qq.com/s/dQFSrXEmgBMh1PW835rlwQ)
+  
 - 大数据
 
   - ODPS离线分析
@@ -157,7 +161,8 @@
 - 优秀开源框架推荐
 
   - [阿里巴巴开源限流系统 Sentinel 全解析](https://mp.weixin.qq.com/s/NgS9tL4IVwGZrssz7fURpA)
-
+  - [支付宝的架构到底有多牛逼？还没看完我就跪了！](https://mp.weixin.qq.com/s/d4K9hJHzZ5IAd2aarsdQrw)
+  
 - 架构演进之路
 
   - 从All in one 到微服务
@@ -172,17 +177,24 @@
 
   - [简历怎么写?](https://mp.weixin.qq.com/s/0pNv6pMnenKn1A9PE61VnQ)
   - [能不能好好写简历？](https://mp.weixin.qq.com/s/LxVeT49GMKu72PZJ-rDHpA)
+  - [简历这样写，技术人都不直男了！](https://mp.weixin.qq.com/s/tl4DpsQPVh-bvlFzNsrzvw)
   - 语言组织
   - 加分项
   - 扬长避短
   - [自我介绍](https://github.com/AobingJava/JavaFamily/blob/master/docs/coderLife/%E6%95%96%E4%B8%99%E7%94%A820%E8%A1%8C%E4%BB%A3%E7%A0%81%E6%8B%BF%E4%BA%86%E6%AF%94%E8%B5%9B%E5%86%A0%E5%86%9B.md)
+  - [互联网公司面试流程 注意事项 加分点 防骗指南](https://mp.weixin.qq.com/s/jhmpG2bBb4aXoUJzahC0Rg)
+  - [互联网公司面试流程&加分点，别跟敖丙一样被无良HR坑了](https://mp.weixin.qq.com/s/7Rq8QR58Adi5WGHRlnhDeQ)
   
 - 研发规范
 
   - [为什么阿里巴巴禁止开发人员使用isSuccess作为变量名？](https://mp.weixin.qq.com/s/xvTCaBXkRc7e6dGCUJxRPQ)
   - [为什么阿里巴巴要求谨慎使用ArrayList中的subList方法](https://mp.weixin.qq.com/s/9y89Hy-YnpPjXpcmXpy_GQ)
+  - [为什么阿里巴巴不建议在for循环中使用"+"进行字符串拼接](https://mp.weixin.qq.com/s/fLUf8V0Qahe8piNrRp1UVQ)
   
 - 面试真题
+
+  - [二本 两年经验读者 阿里P6面经](https://mp.weixin.qq.com/s/WOS6HMdt1-mAGuLiC30_-Q)
+  - [3 年经验的 Java 后端妹子，横扫阿里、滴滴、美团，看完面经我觉得敖丙是垃圾！](https://mp.weixin.qq.com/s/oAnGGBkre7Z4VkhME-TgzQ)
   - [2020 字节跳动后端面经分享！已拿 offer!](https://mp.weixin.qq.com/s/hr2pDs2wsiHQuDzW7jmOow)
   - [春招字节跳动、蘑菇街四轮面试，分别问了啥？](https://mp.weixin.qq.com/s/xBC1IRr6v8hmIJ9lqCp5pQ)
   - [敖丙8年经验读者，疫情期间面20家大厂总结](https://mp.weixin.qq.com/s/AQvDX0n8wBBaWl2OmcpnrA)
@@ -197,7 +209,13 @@
   - [十道校招常见的面试题](https://mp.weixin.qq.com/s/wTKSvziyEXrSyf21iMjhZQ)
   - [JVM必问知识点:类加载过程](https://mp.weixin.qq.com/s/eHqFONXXNc-LD4ugaKM6UA)
   - [迄今为止把同步/异步/阻塞/非阻塞/BIO/NIO/AIO讲的这么清楚的好文章（快快珍藏）](https://mp.weixin.qq.com/s/EVequWGVMWV5Ki2llFzdHg)
+  - [互联网寒冬，敖丙挚友7面阿里，终获Offer](https://mp.weixin.qq.com/s/gYpZCSYK3YYEvGFFeHdFJQ)
+  - [Java后端实习面经，电子科大大三读者投稿！看了之后感触颇深！很开心！](https://mp.weixin.qq.com/s/ttKI82_CQdMmxoBw8TS92g)
+  - [敖丙读者只复习了半年，怒拿字节跳动Offer](https://mp.weixin.qq.com/s/g6qFbEWfJeahzuzjECuvDg)
+  
 - 程序人生系列
+
+  - [蘑菇街裁员说明 海阔凭鱼跃，天高任鸟飞](https://mp.weixin.qq.com/s/JB6CT4SfOg8e9lhkiWwZNg)
   - [我知道互联网不相信眼泪，但是敖丙今天还是没忍住](https://mp.weixin.qq.com/s/UC6NsEFlNfqMdEkzvHxKRA)
   - [2020无畏年少青春，迎风潇洒前行](https://mp.weixin.qq.com/s/66ZDj60KPEfohHg0g8Cggw)
   - [写作一个月的感受](https://github.com/AobingJava/JavaFamily/blob/master/docs/coderLife/%E5%86%99%E4%BD%9C%E4%B8%80%E4%B8%AA%E6%9C%88%E5%9C%A8%E6%84%9F%E6%81%A9%E8%8A%82%E5%AF%B9%E5%A4%A7%E5%AE%B6%E8%AF%B4%E7%9A%84%E8%AF%9D.md)
@@ -214,6 +232,7 @@
 
 - 日常生活
 
+  - [送别了好友，敖丙跟你聊聊【离职】这个话题](https://mp.weixin.qq.com/s/pHcgkDvKfElRIVZGd4Kzng)
   - [请照顾好自己，周末病魔差点一套带走我。](https://mp.weixin.qq.com/s/5C4UjGtHoZVu8uI4yP5wRg)
   - [敖丙我参加了蘑菇街年会，流了一晚上鼻血](https://mp.weixin.qq.com/s/fkByjmdaqdw0TELDzdm5mQ)
   - [曾经我们并肩作战，敬未来一杯，敬资本一杯](https://mp.weixin.qq.com/s/s9HPYYi9VfYMt7UGCTqWVw)
@@ -269,6 +288,8 @@ CSDN：https://blog.csdn.net/qq_35190492
 
 技术交流群：添加我微信  aobing2  备注【加群】即可
 
+投稿：投稿可获得100-1000元不等的稿酬 点击 [【查看详情】](http://mp.weixin.qq.com/s?__biz=MzAwNDA2OTM1Ng==&mid=305658311&idx=1&sn=4a38e5bbb8845a245452f8ffad9fe4b3&chksm=0cf2db443b855252577ac26a16bbf477942401f7e832bd075866d82a0fa25a02ab5b1534cb72#rd)
+
 
 # 祝福
 
@@ -277,6 +298,7 @@ CSDN：https://blog.csdn.net/qq_35190492
 如果你通过努力成功进入到了心仪的公司，一定不要懈怠放松，职场成长和新技术学习一样，不进则退。
 
 敖丙在工作中发现我身边的人真的就是实力越强的越努力，**最高级的自律，享受孤独**。
+
 
 
 # 知识星球
@@ -321,7 +343,7 @@ CSDN：https://blog.csdn.net/qq_35190492
 
 找所有职位比较出色的朋友，觉得合适的给我简历我可以内推，阿里、美团、蘑菇街、拼多多、字节跳动、腾讯等都可以.
 
-阿里巴巴投递邮箱 : xichao.jy@alibaba-inc.com  蘑菇街/其他岗位 : aobing@mogu.com 
+阿里巴巴投递邮箱 : xichao.jy@alibaba-inc.com       蘑菇街/其他岗位 : aobing@mogu.com 
 
 
 ### 近期机会
@@ -407,6 +429,11 @@ CSDN：https://blog.csdn.net/qq_35190492
 <a href="https://github.com/fanchenggang">  
     <img src="https://avatars0.githubusercontent.com/u/20358122?s=460&v=4" width="45px">
 </a>
+
+
+# 赞助商
+以下排名不分先后!
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge4xvdlh0wj30zk0d1q6d.jpg)
 
   <a name="微信"></a>  <a name="公众号"></a>
   
